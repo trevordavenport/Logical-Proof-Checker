@@ -14,7 +14,7 @@ User types in Proof, parser verifies or invalidates statements line-by-line.
     * one of the words mp, mt, or co followed by blank space, followed by a line number and blank space and another line number
     * one of the words ic or repeat followed by blank space and a line number
     * the name of a theorem (see below)
-    * The words ** "mp" **, ** "mt" ** , "co", and "ic", abbreviate the terms "modus ponens", "modus tollens", "contradiction", and "implication construction".
+    * The words "mp", "mt", "co", and "ic", abbreviate the terms "modus ponens", "modus tollens", "contradiction", and "implication construction".
 ```
 
 
