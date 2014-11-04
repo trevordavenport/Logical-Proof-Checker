@@ -1,10 +1,4 @@
-README OUTLINE
-
-Division of Labor:
-Vincent - Debugging, search algorithm, creating solution path using a parent pointer, openpath heuristic
-Steven - Input handling, Structure of Solver, Block & Board classes, search algorithm
-Sam - Empty space & manhattan distance heuristics, test files, readme
-Trevor - Hash codes, Empty Space & Goal Space heuristics, test files, readme
+CODE OUTLINE
 
 Design:
 Discuss initial setup - using a HashMap of previously-evaluated boards to avoid recalculating heuristics (later removed),
@@ -44,7 +38,6 @@ Solver Class:
             -If that block can be moved, create a new board with that movement
               -If that new board has already been chosen before, ignore it
               -If that new board has been seen, but not chosen, pull it from the HashMap
-
 
 Board class:
   Represent board in two different ways; 2D boolean array and ArrayList of blocks.
